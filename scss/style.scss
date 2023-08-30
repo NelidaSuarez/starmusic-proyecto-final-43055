@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&family=Fontdiner+Swanky&display=swap');
+
+@import "./base/reset";
+
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./base/typo";
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./base/paginas";
+@import "./base/cards";
+
+
+@import "./components/bootstrap.scss";
+@import "./components/buttons.scss";
+
+@import "./utilities/imagenes";
+@import "./utilities/list";
+
+@import "./layout/mediaQ/media1440";
+@import "./layout/mediaQ/media1024";
+@import "./layout/mediaQ/media912";
+@import "./layout/mediaQ/media820";
+@import "./layout/mediaQ/media768";
+@import "./layout/mediaQ/media558";
+@import "./layout/mediaQ/media562";
+@import "./layout/mediaQ/media425";
+@import "./layout/mediaQ/media360";
+@import "./layout/mediaQ/media320";
+@import "./layout/mediaQ/media280";
+
+
+
+
+

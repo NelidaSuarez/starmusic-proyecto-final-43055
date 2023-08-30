@@ -1,0 +1,52 @@
+@media(max-width: 425px){
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;    
+    }
+    .logo{
+        margin-top: 50px;
+        display: flex;    
+        height: 50px;        
+        align-items: end;
+    }  
+    .hh1{
+        margin-top: 150px;
+        font-size: 50px;
+        -webkit-text-stroke: 0px violet;
+    }
+    .hh2{
+        margin-top: 150px;
+        font-size: 20px;
+    }
+    .boton1{
+        margin-top: 500px;
+    }
+    .socials{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pp{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pie{
+        margin-bottom: 10px;
+    }
+    .caja-conteiner{
+        margin-top: 10px;
+    }
+    .p2{
+        font-size: 36px;
+    }
+    .list{
+        font-size: 20px;
+    }
+    .caja-generos{  
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 1100px;
+        height: 1000px; 
+    }
+}

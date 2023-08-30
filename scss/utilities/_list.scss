@@ -1,0 +1,32 @@
+.li {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 27px;
+    font-family: 'Fontdiner Swanky', cursive;
+    color: $fuente2;
+    list-style: none;
+    transition: 1s;
+}
+
+
+.lista {
+    margin-top: 35px;
+}
+
+.list {
+    font-size: 27px;
+    font-family: 'Fontdiner Swanky', cursive;
+    color: $fuente2;
+    text-decoration: none;
+}
+
+
+        .list2 {
+            font-size: 12px;
+            color: black;
+            text-decoration: none;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            
+        }
+    

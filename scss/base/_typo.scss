@@ -1,0 +1,71 @@
+h1 {
+    color: $fuente2;
+    text-align: center;
+    font-size: 150px;
+    letter-spacing: 12px;
+    font-family: 'Fontdiner Swanky', cursive;
+    -webkit-text-stroke: 0.5px rgb(187, 100, 187);
+    margin-top: 75px;
+    
+}
+
+h2 {
+    color: $fuente2;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+p {
+    color: $fuente2;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+}
+.p320{  color: $fuente2;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;}
+
+.p2 {
+    font-family: 'Fontdiner Swanky', cursive;
+    color: $fuente1;
+    -webkit-text-stroke: 0.25px rgb(153, 37, 220);
+    font-size: 80px;
+    margin-top: 100px;
+}
+
+
+.p4{
+    font-family: 'Fontdiner Swanky', cursive;
+    color: $fuente1;
+    -webkit-text-stroke: 0.30px $fuente2;
+    font-size: 65px;
+    margin-top: 50px;
+}
+.p5{
+    font-family: 'Fontdiner Swanky', cursive;
+    color: $fuente1;
+    -webkit-text-stroke: 0.25px rgb(153, 37, 220);
+    font-size: 80px;
+    margin-top: 100px;
+}
+.textoo{
+    color: $fuente1;
+    text-align:left;
+    text-indent: 4px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px ;
+    text-indent:2em;
+}
+figcaption {
+
+    font-size: 18px;
+    text-indent: 4px;
+    font-family: 'Arimo', sans-serif, bold;
+    font-family: bold;
+    color: $fuente1;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
