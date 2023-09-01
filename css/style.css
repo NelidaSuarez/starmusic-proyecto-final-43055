@@ -715,8 +715,8 @@ section div .botonp2 {
     height: 300px;
     margin-left: 20px; }
   .caja-conteiner1 {
-    width: 500px;
-    height: 900px;
+    width: 600px;
+    height: 800px;
     margin-left: 20px; }
   .caja-guitarra1 {
     width: 350px;
@@ -725,20 +725,26 @@ section div .botonp2 {
 
 @media (max-width: 642px) {
   .caja-conteiner, .caja-conteiner1 {
-    width: 550px;
+    width: 500px;
     height: 900px;
     margin-left: 25px; }
   .caja-guitarra {
-    width: 550px;
+    width: 500px;
     height: 300px;
     margin-left: 25px; }
   figcaption {
     font-size: 24px;
     margin-left: 25px; }
   .videohistoria {
-    width: 550px;
+    width: 500px;
     height: 300px;
-    margin-left: 25px; } }
+    margin-left: 25px; }
+  .caja-conteiner1 {
+    width: 550px;
+    height: 700px;
+    margin-left: 20px; }
+  .p4 {
+    font-size: 38px; } }
 
 @media (max-width: 628px) {
   .caja-generos {
@@ -809,7 +815,17 @@ section div .botonp2 {
 
 @media (max-width: 768px) {
   p {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  .caja-conteiner1 {
+    width: 450px;
+    height: 900px;
+    margin-left: 15px;
+    margin-top: 40px; }
+  .caja-guitarra {
+    margin-top: 40px;
+    width: 450px;
+    height: 300px;
+    margin-left: 15px; } }
 
 @media (max-width: 538px) {
   figcaption {
@@ -841,12 +857,22 @@ section div .botonp2 {
     margin-top: 40px;
     width: 450px;
     height: 300px;
+    margin-left: 35px; }
+  .caja-conteiner1 {
+    width: 400px;
+    height: 1000px;
+    margin-left: 35px;
+    margin-top: 40px; }
+  .caja-guitarra {
+    margin-top: 40px;
+    width: 400px;
+    height: 300px;
     margin-left: 35px; } }
 
 @media (max-width: 500px) {
   .caja-conteiner, .caja-conteiner1 {
     width: 400px;
-    height: 900px;
+    height: 1000px;
     margin-left: 50px;
     margin-top: 40px; }
   .caja-guitarra {
@@ -952,7 +978,12 @@ section div .botonp2 {
   .videohistoria {
     width: 330px;
     height: 300px;
-    margin-left: 45px; } }
+    margin-left: 45px; }
+  .caja-conteiner1 {
+    width: 350px;
+    height: 1100px;
+    margin-left: 35px;
+    margin-top: 40px; } }
 
 @media (max-width: 400px) {
   figcaption {
@@ -1025,17 +1056,22 @@ section div .botonp2 {
     font-size: 14px;
     margin-left: 15px; }
   .caja-conteiner, .caja-conteiner1 {
-    width: 300px;
+    width: 250px;
     height: 1250px;
     margin-left: 30px; }
   .caja-guitarra {
-    width: 300px;
+    width: 250px;
     height: 250px;
     margin-left: 30px; }
   .videohistoria {
-    width: 300px;
+    width: 250px;
     height: 250px;
-    margin-left: 30px; } }
+    margin-left: 30px; }
+  .caja-conteiner1 {
+    width: 250px;
+    height: 1250px;
+    margin-left: 35px;
+    margin-top: 40px; } }
 
 @media (max-width: 280px) {
   header {
