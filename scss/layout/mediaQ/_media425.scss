@@ -40,6 +40,9 @@
     .p2{
         font-size: 36px;
     }
+    .p4{
+         font-size:40px ;
+        }
     .list{
         font-size: 20px;
     }
@@ -49,4 +52,47 @@
         width: 1100px;
         height: 1000px; 
     }
+    .caja-gral{
+        grid-template-columns: auto;
+    }
+    figcaption{
+        font-size: 16px;
+        margin-left: 25px;
+    }
+    .caja-conteiner{        
+        width: 330px;
+        height: 1100px;
+        margin-left: 45px;
+         
+        }
+        .caja-guitarra {            
+            
+            width: 330px;
+            height: 300px;
+            margin-left: 45px;
+        }
+        .videohistoria {
+            
+            width: 330px;
+            height: 300px;
+            margin-left: 45px;            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
