@@ -374,6 +374,58 @@ section div .botonp2 {
   footer {
     margin-top: 200px; } }
 
+@media (max-width: 1331px) {
+  .caja-conteiner, .caja-conteiner1 {
+    width: 550px;
+    height: 1000px;
+    margin-left: 50px;
+    margin-top: 40px; }
+  .caja-guitarra {
+    margin-top: 100px;
+    width: 550px;
+    height: 300px;
+    margin-left: 50px; }
+  figcaption {
+    font-size: 14px;
+    margin-left: 45px; }
+  .videohistoria {
+    margin-top: 100px;
+    width: 550px;
+    height: 300px;
+    margin-left: 50px; } }
+
+@media (max-width: 1240px) {
+  .caja-conteiner, .caja-conteiner1 {
+    width: 400px;
+    height: 1100px;
+    margin-left: 15px;
+    margin-top: 40px; }
+  .caja-guitarra {
+    width: 400px;
+    margin-left: 15px; }
+  figcaption {
+    font-size: 14px;
+    margin-left: 15px; }
+  .videohistoria {
+    width: 400px;
+    margin-left: 15px; } }
+
+@media (max-width: 1060px) {
+  .caja-conteiner, .caja-conteiner1 {
+    width: 400px;
+    height: 1000px;
+    margin-left: 45px;
+    margin-top: 40px; }
+  .caja-guitarra {
+    width: 450px;
+    margin-left: 25px; }
+  figcaption {
+    font-size: 14px;
+    margin-left: 25px; }
+  .videohistoria {
+    width: 450px;
+    margin-left: 25px; } }
+
 @media (max-width: 1024px) {
   header {
     background-color: #7F6C9C; }
@@ -416,6 +468,16 @@ section div .botonp2 {
     width: 450px;
     height: 300px; } }
 
+@media (max-width: 1000px) {
+  .caja-conteiner1 {
+    width: 370px;
+    height: 1000px; }
+  .caja-guitarra {
+    margin-top: 100px;
+    width: 400; }
+  .fig {
+    font-size: 20px; } }
+
 @media (max-width: 942px) {
   .caja-conteiner, .caja-conteiner1 {
     width: 380px;
@@ -456,7 +518,17 @@ section div .botonp2 {
   .videohistoria {
     margin-top: 30px;
     width: 400px;
-    height: 300px; } }
+    height: 300px; }
+  .caja-conteiner1 {
+    width: 350px;
+    height: 1100px;
+    margin-left: 25; }
+  .caja-guitarra {
+    margin-top: 100px;
+    width: 3800;
+    margin-left: 25; }
+  .fig {
+    font-size: 20px; } }
 
 @media (max-width: 860px) {
   .caja-conteiner, .caja-conteiner1 {
@@ -641,6 +713,14 @@ section div .botonp2 {
   .videohistoria {
     width: 600px;
     height: 300px;
+    margin-left: 20px; }
+  .caja-conteiner1 {
+    width: 500px;
+    height: 900px;
+    margin-left: 20px; }
+  .caja-guitarra1 {
+    width: 350px;
+    height: 300px;
     margin-left: 20px; } }
 
 @media (max-width: 642px) {
@@ -660,6 +740,10 @@ section div .botonp2 {
     height: 300px;
     margin-left: 25px; } }
 
+@media (max-width: 628px) {
+  .caja-generos {
+    height: 700px; } }
+
 @media (max-width: 593px) {
   .caja-conteiner, .caja-conteiner1 {
     width: 500px;
@@ -676,6 +760,12 @@ section div .botonp2 {
     width: 500px;
     height: 300px;
     margin-left: 30px; } }
+
+@media (max-width: 562px) {
+  .logo {
+    margin-top: 50px; }
+  p {
+    font-size: 36px; } }
 
 @media (max-width: 560px) {
   header {
@@ -833,6 +923,8 @@ section div .botonp2 {
     margin-top: 10px; }
   .p2 {
     font-size: 36px; }
+  .pp2 {
+    font-size: 28px; }
   .p4 {
     font-size: 40px; }
   .list {
@@ -841,7 +933,9 @@ section div .botonp2 {
     margin-left: 15px;
     margin-right: 15px;
     width: 1100px;
-    height: 1000px; }
+    height: 1100px; }
+  .lista {
+    text-align: start; }
   .caja-gral {
     grid-template-columns: auto; }
   figcaption {
