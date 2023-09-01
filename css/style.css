@@ -659,6 +659,16 @@ section div .botonp2 {
     height: 300px;
     margin-left: 35px; } }
 
+@media (max-width: 820px) {
+  .caja-conteiner, .caja-conteiner1 {
+    margin-left: 20px; }
+  .caja-guitarra {
+    margin-left: 20px; }
+  figcaption {
+    margin-left: 20px; }
+  .videohistoria {
+    margin-left: 20px; } }
+
 @media (max-width: 743px) {
   .caja-conteiner, .caja-conteiner1 {
     width: 650px;
@@ -674,17 +684,11 @@ section div .botonp2 {
   .videohistoria {
     width: 650px;
     height: 300px;
+    margin-left: 40px; }
+  .caja-conteiner1 {
+    width: 650px;
+    height: 900px;
     margin-left: 40px; } }
-
-@media (max-width: 820px) {
-  .caja-conteiner, .caja-conteiner1 {
-    margin-left: 20px; }
-  .caja-guitarra {
-    margin-left: 20px; }
-  figcaption {
-    margin-left: 20px; }
-  .videohistoria {
-    margin-left: 20px; } }
 
 @media (max-width: 694px) {
   .caja-conteiner, .caja-conteiner1 {
