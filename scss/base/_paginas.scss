@@ -35,3 +35,13 @@ padding: auto;
     @include paginas;
 
 }
+.pagina-404{
+    background: url(https://camo.githubusercontent.com/c92ed583ceb89db69fa6c2d25eaf6400aaa0bed5d9c73e2b03dd78a2f29c6565/68747470733a2f2f636f6c6d656472632e6f72672f77702d636f6e74656e742f75706c6f6164732f323031392f31302f666f746f2d6d75736963612e6a7067) ;
+    @include paginas;
+}
+.error404{
+    margin-top: 200px;
+    margin-left: 444px;
+    width: 404px;
+    height: 404px;
+}

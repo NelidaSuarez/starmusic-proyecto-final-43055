@@ -185,6 +185,21 @@ footer div {
   font-family: 'Arimo', sans-serif;
   background-attachment: fixed; }
 
+.pagina-404 {
+  background: url(https://camo.githubusercontent.com/c92ed583ceb89db69fa6c2d25eaf6400aaa0bed5d9c73e2b03dd78a2f29c6565/68747470733a2f2f636f6c6d656472632e6f72672f77702d636f6e74656e742f75706c6f6164732f323031392f31302f666f746f2d6d75736963612e6a7067);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arimo', sans-serif;
+  background-attachment: fixed; }
+
+.error404 {
+  margin-top: 200px;
+  margin-left: 444px;
+  width: 404px;
+  height: 404px; }
+
 .cardd-cont {
   display: flex;
   flex-flow: row wrap;
@@ -688,7 +703,9 @@ section div .botonp2 {
   .caja-conteiner1 {
     width: 650px;
     height: 900px;
-    margin-left: 40px; } }
+    margin-left: 40px; }
+  .ppp {
+    font-size: 18px; } }
 
 @media (max-width: 694px) {
   .caja-conteiner, .caja-conteiner1 {
