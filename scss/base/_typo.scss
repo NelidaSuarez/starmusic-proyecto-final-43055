@@ -1,3 +1,4 @@
+
 h1 {
     color: $fuente2;
     text-align: center;
@@ -68,4 +69,43 @@ figcaption {
     margin-top: 20px;
     margin-left: 10px;
 
+}
+.neon{
+    margin: 0;
+    font-size: 56px;
+    text-shadow: 0 0 10px rgb(255, 0, 204), 0 0 15px rgb(255, 0, 204), 0 0 15px rgb(255, 0, 204), 0 0 30px rgb(255, 0, 204);
+    -webkit-text-stroke: 0.01px white;
+}
+.neon1{
+    margin: 0;
+    font-size: 100px;
+    letter-spacing: 10px;
+    text-shadow: 0 0 10px rgb(17, 239, 54), 0 0 15px rgb(117, 239, 54), 0 0 15px rgb(17, 239, 54);
+    -webkit-text-stroke: 0.01px white;
+    
+}
+.neon2{
+    margin: 0;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px yellow, 0 0 15px yellow, 0 0 15px yellow;
+    -webkit-text-stroke: 0.01px white;
+    
+}
+.flicker1{
+    animation: parpadear 1.5s infinite backwards steps(2)
+}
+.flicker2{
+    animation: parpadear 2s infinite backwards steps(3)
+}
+.flicker3{
+    animation: parpadear 2.5s infinite backwards steps(4)
+}
+
+
+@keyframes parpadear{
+    to{
+        color:rgb(34, 32, 32);
+        text-shadow: none;
+    }
 }
