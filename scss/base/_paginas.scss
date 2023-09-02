@@ -37,4 +37,5 @@ padding: auto;
 }
 .pagina-404{
     background: black;
+    @include paginas;
 }

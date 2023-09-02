@@ -220,7 +220,13 @@ footer div {
   background-attachment: fixed; }
 
 .pagina-404 {
-  background: black; }
+  background: black;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arimo', sans-serif;
+  background-attachment: fixed; }
 
 .cardd-cont {
   display: flex;
@@ -303,7 +309,7 @@ section .carta {
   border-radius: 60px;
   max-width: 700px;
   margin-top: 150px;
-  margin-left: 400px;
+  margin-left: 350px;
   text-align: center;
   color: white;
   padding: 20px; }
@@ -420,7 +426,13 @@ section div .botonp2 {
   .boton1 {
     margin-top: 200px; }
   footer {
-    margin-top: 200px; } }
+    margin-top: 200px; }
+  .conteiner404 {
+    margin-top: 300px;
+    width: 900px;
+    height: 500px; }
+    .conteiner404 .neon {
+      margin-top: 100px; } }
 
 @media (max-width: 1331px) {
   .caja-conteiner, .caja-conteiner1 {
@@ -440,7 +452,11 @@ section div .botonp2 {
     margin-top: 100px;
     width: 550px;
     height: 300px;
-    margin-left: 50px; } }
+    margin-left: 50px; }
+  .conteiner404 {
+    margin-top: 300px;
+    width: 900px;
+    height: 500px; } }
 
 @media (max-width: 1240px) {
   .caja-conteiner, .caja-conteiner1 {
@@ -456,7 +472,16 @@ section div .botonp2 {
     margin-left: 15px; }
   .videohistoria {
     width: 400px;
-    margin-left: 15px; } }
+    margin-left: 15px; }
+  .conteiner404 {
+    margin-top: 300px;
+    margin-left: 300px;
+    width: 900px;
+    height: 500px; } }
+
+@media (max-width: 1200px) {
+  .conteiner404 {
+    margin-left: 250px; } }
 
 @media (max-width: 1060px) {
   .caja-conteiner, .caja-conteiner1 {
@@ -472,7 +497,9 @@ section div .botonp2 {
     margin-left: 25px; }
   .videohistoria {
     width: 450px;
-    margin-left: 25px; } }
+    margin-left: 25px; }
+  .conteiner404 {
+    margin-left: 200px; } }
 
 @media (max-width: 1024px) {
   header {
@@ -514,7 +541,9 @@ section div .botonp2 {
   .videohistoria {
     margin-top: 50px;
     width: 450px;
-    height: 300px; } }
+    height: 300px; }
+  .conteiner404 {
+    margin-left: 180px; } }
 
 @media (max-width: 1000px) {
   .caja-conteiner1 {
@@ -524,7 +553,9 @@ section div .botonp2 {
     margin-top: 100px;
     width: 400; }
   .fig {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .conteiner404 {
+    margin-left: 160px; } }
 
 @media (max-width: 942px) {
   .caja-conteiner, .caja-conteiner1 {
@@ -544,7 +575,11 @@ section div .botonp2 {
     margin-top: 100px;
     width: 380px;
     height: 300px;
-    margin-left: 35px; } }
+    margin-left: 35px; }
+  .conteiner404 {
+    margin-left: 250px;
+    width: 500px;
+    height: 500px; } }
 
 @media (max-width: 912px) {
   .hh1 {
@@ -576,7 +611,9 @@ section div .botonp2 {
     width: 3800;
     margin-left: 25; }
   .fig {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .conteiner404 {
+    margin-left: 200px; } }
 
 @media (max-width: 860px) {
   .caja-conteiner, .caja-conteiner1 {
@@ -616,7 +653,9 @@ section div .botonp2 {
     margin-top: 100px;
     width: 380px;
     height: 300px;
-    margin-left: 7px; } }
+    margin-left: 7px; }
+  .conteiner404 {
+    margin-left: 180px; } }
 
 @media (max-width: 820px) {
   .hh1 {
@@ -644,7 +683,11 @@ section div .botonp2 {
     margin-top: 40px;
     width: 700px;
     height: 300px;
-    margin-left: 55px; } }
+    margin-left: 55px; }
+  .conteiner404 {
+    margin-left: 160px;
+    width: 500px;
+    height: 500px; } }
 
 @media (max-width: 820px) {
   .p4 {
@@ -663,7 +706,11 @@ section div .botonp2 {
   .videohistoria {
     width: 700px;
     height: 300px;
-    margin-left: 30px; } }
+    margin-left: 30px; }
+  .conteiner404 {
+    margin-left: 130px;
+    width: 500px;
+    height: 500px; } }
 
 @media (max-width: 768px) {
   header {
@@ -740,6 +787,10 @@ section div .botonp2 {
   .ppp {
     font-size: 18px; } }
 
+@media (max-width: 716px) {
+  .conteiner404 {
+    margin-left: 110px; } }
+
 @media (max-width: 694px) {
   .caja-conteiner, .caja-conteiner1 {
     margin-left: 15px; }
@@ -775,7 +826,19 @@ section div .botonp2 {
   .caja-guitarra1 {
     width: 350px;
     height: 300px;
-    margin-left: 20px; } }
+    margin-left: 20px; }
+  .conteiner404 {
+    margin-left: 90px; } }
+
+@media (max-width: 660px) {
+  .neon {
+    font-size: 36px; }
+  .neon1 {
+    font-size: 50px; }
+  .conteiner404 {
+    margin-left: 140px;
+    width: 370px;
+    height: 400px; } }
 
 @media (max-width: 642px) {
   .caja-conteiner, .caja-conteiner1 {
@@ -802,7 +865,9 @@ section div .botonp2 {
 
 @media (max-width: 628px) {
   .caja-generos {
-    height: 700px; } }
+    height: 700px; }
+  .conteiner404 {
+    margin-left: 110px; } }
 
 @media (max-width: 593px) {
   .caja-conteiner, .caja-conteiner1 {
@@ -825,7 +890,9 @@ section div .botonp2 {
   .logo {
     margin-top: 50px; }
   p {
-    font-size: 36px; } }
+    font-size: 36px; }
+  .conteiner404 {
+    margin-left: 100px; } }
 
 @media (max-width: 560px) {
   header {
@@ -883,7 +950,9 @@ section div .botonp2 {
 
 @media (max-width: 538px) {
   figcaption {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .conteiner404 {
+    margin-left: 70px; } }
 
 @media (max-width: 512px) {
   .logo {
@@ -943,6 +1012,10 @@ section div .botonp2 {
     height: 300px;
     margin-left: 50px; } }
 
+@media (max-width: 485px) {
+  .conteiner404 {
+    margin-left: 50px; } }
+
 @media (max-width: 475px) {
   .caja-conteiner, .caja-conteiner1 {
     height: 1000px;
@@ -969,7 +1042,9 @@ section div .botonp2 {
   .videohistoria {
     width: 370px;
     height: 300px;
-    margin-left: 30px; } }
+    margin-left: 30px; }
+  .conteiner404 {
+    margin-left: 40px; } }
 
 @media (max-width: 425px) {
   header {
@@ -1037,7 +1112,14 @@ section div .botonp2 {
     width: 350px;
     height: 1100px;
     margin-left: 35px;
-    margin-top: 40px; } }
+    margin-top: 40px; }
+  .conteiner404 {
+    margin-top: 200px;
+    margin-left: 30px;
+    height: 350px;
+    width: 350px; }
+  .neon {
+    font-size: 28px; } }
 
 @media (max-width: 400px) {
   figcaption {
@@ -1054,13 +1136,27 @@ section div .botonp2 {
   .videohistoria {
     width: 300px;
     height: 250px;
-    margin-left: 30px; } }
+    margin-left: 30px; }
+  .conteiner404 {
+    margin-top: 200px;
+    margin-left: 20px;
+    height: 350px;
+    width: 350px; }
+  .neon {
+    font-size: 28px; } }
 
 @media (max-width: 375px) {
   header {
     display: flex;
     min-height: 100px;
-    width: 100%; } }
+    width: 100%; }
+  .conteiner404 {
+    margin-top: 200px;
+    margin-left: 15px;
+    height: 320px;
+    width: 320px; }
+  .neon {
+    font-size: 28px; } }
 
 @media (max-width: 360px) {
   .hh1 {
@@ -1085,7 +1181,27 @@ section div .botonp2 {
     height: 250px;
     margin-left: 20px; }
   .textoo {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .conteiner404 {
+    margin-top: 200px;
+    margin-left: 15px;
+    height: 310px;
+    width: 310px; }
+  .neon {
+    font-size: 24px; }
+  .neon1 {
+    font-size: 26px; } }
+
+@media (max-width: 345px) {
+  .conteiner404 {
+    margin-top: 200px;
+    margin-left: 15px;
+    height: 300px;
+    width: 300px; }
+  .neon {
+    font-size: 20px; }
+  .neon1 {
+    font-size: 24px; } }
 
 @media (max-width: 320px) {
   .pp {
